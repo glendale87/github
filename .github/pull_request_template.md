@@ -1,4 +1,4 @@
-# ⛏ Casual Minecraft Pull Request
+## ⛏ Casual Minecraft Pull Request
 
 Thank you for contributing to the **Casual Minecraft** build repository.
 
@@ -25,13 +25,13 @@ Add screenshots if helpful.
 
 Verify that your new build submission satisfies these requirements:
 
+- [ ] Folder/file structure follows the repository rules listed in `CONTRIBUTING.md`
 - [ ] At least one `.schem` or `.litematic` file included
-- [ ] At least one image inside `images/`
+- [ ] At least one image named `preview.png` or `preview.jpg` inside `images/`
 - [ ] `README.md` included
-- [ ] Material list(s) included inside `README.md`
+- [ ] Material list included inside `README.md`
 - [ ] Minecraft version(s) listed inside `README.md`
 - [ ] Creator information included inside `README.md`
-- [ ] Folder/file structure follows the repository rules listed in `CONTRIBUTING.md`
 
 or
 

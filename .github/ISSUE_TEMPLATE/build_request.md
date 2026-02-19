@@ -6,7 +6,7 @@ labels: build request
 assignees: ""
 ---
 
-# 🧱 Build Type
+## 🧱 Build Type
 
 - [ ] Base
 - [ ] Farm
@@ -15,17 +15,17 @@ assignees: ""
 - [ ] Utility
 - [ ] Other:
 
-# 📖 Describe The Build
+## 📖 Describe The Build
 
 Explain what you'd like to see built.
 
 Example: "A simple early-game iron farm that uses minimal villagers."
 
-# 🎮 Minecraft Version
+## 🎮 Minecraft Version
 
 Which version should this support?
 
-# 🔧 Constraints or Requirements
+## 🔧 Constraints or Requirements
 
 Any special conditions?
 
@@ -35,7 +35,7 @@ Any special conditions?
 - Compact
 - Server Safe
 
-# 📸 Optional References
+## 📸 Optional References
 
 Add links or images if helpful.
 

@@ -19,11 +19,11 @@ Your submission **must include**:
 - At least one schematic file (`.schem` or `.litematic`)
 - A `README.md` file containing:
   - At least one image preview of the build
-  - A complete material list for each included schematic
-  - Minecraft version compatibility (e.g., Java 1.21+)
+  - A complete material list the build
+  - Minecraft version compatibility
   - Creator information:
     - Minecraft username or social handle
-    - Optional social links (YouTube, X, Discord, etc.)
+    - Optional social links (YouTube, Twitch, Discord, TikTok, X, etc.)
 
 Incomplete submissions will not be merged.
 
@@ -31,7 +31,7 @@ Incomplete submissions will not be merged.
 
 ## 📁 Required Folder Structure
 
-Your folder must follow this exact structure:
+Your folders must follow this exact structure:
 
 ```
 [category]/
@@ -45,15 +45,17 @@ Your folder must follow this exact structure:
 
 `[category]` must match one of the existing repository categories. If a category needs to be added, please open an issue or include it in your Pull Request with an explanation.
 
-### File and Folder Naming Rules
+### Folder Naming Rules
 
 To ensure cross-platform compatibility and consistency:
 
-- Use lowercase
-- Use hyphens instead of spaces
-- Use build-name--username format
-- Do not use special characters
-- Do not use spaces
+- Use **lowercase letters only**
+- Use **hyphens** instead of spaces
+- Include your **Minecraft or social username**
+- Do **not** use special characters or uppercase letters
+
+Format:  
+`build-name--username`
 
 Example:  
 `simple-starter-base--casual`
@@ -67,7 +69,35 @@ schematics/
 images/
 ```
 
----
+- Schematics go in `schematics/`
+- Screenshots/previews go in `images/`
+
+### Schematic File Names
+
+- Use **lowercase letters only**
+- Use **hyphens** instead of spaces
+- Include a **version number**: `_v<major>.<minor>`
+- Allowed formats: `.schem` or `.litematic`
+- Do **not** use words like `final`, `fixed`, `new`, or extra descriptors in the name
+
+Format:  
+`build-name_vX.Y.format`
+
+Examples:
+
+```
+starter-iron-farm_v1.0.litematic
+starter-iron-farm_v1.1.schem
+single-iron-farm_v1.0.litematic
+```
+
+### Image File Names
+
+- Use **lowercase letters only**
+- Use **hyphens** instead of spaces
+- Allowed formats: `.png` (preferred) or `.jpg`
+
+There **must** be one image named `preview.png` or `preview.jpg` that best shows the build. This file will be displayed in the build folder's `README.md` and may be used to showcase the build in the category `README.md` file.
 
 ## 🧱 Material List Standards
 
@@ -76,7 +106,10 @@ Material lists must:
 - Be complete and accurate
 - Match the included schematic(s)
 - Reflect survival-obtainable quantities
-- Separate blocks, redstone, entities, and special items when applicable
+- Generalizations are acceptable for blocks if the variant doesn't matter
+  - `Building Block` instead of `Stone`, `Cobblestone`, etc.
+  - `Trapdoor` instead of `Oak Trapdoor`
+  - `Slab` instead of `Stone Slab`
 
 If multiple schematics are included, each must have its own clearly labeled material list section inside `README.md`.
 
